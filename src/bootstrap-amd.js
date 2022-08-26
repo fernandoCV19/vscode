@@ -23,7 +23,7 @@ loader.config({
 	amdModulesPattern: /^vs\//,
 	recordStats: true
 });
-
+//Comentario para probar pull request
 // Running in Electron
 if (process.env['ELECTRON_RUN_AS_NODE'] || process.versions['electron']) {
 	loader.define('fs', ['original-fs'], function (originalFS) {
