@@ -306,6 +306,7 @@ function getArgvConfigPath() {
 }
 
 function configureCrashReporter() {
+	return;
 
 	let crashReporterDirectory = args['crash-reporter-directory'];
 	let submitURL = '';
